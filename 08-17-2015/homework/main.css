@@ -1,28 +1,116 @@
-head {
+html {
+    background: url("https://drscdn.500px.org/photo/33877631/m%3D2048/bcbc1cb8178aed33bc885308a6c34707") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+header {
     font-family: 'Raleway', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: center;
+    width: 100%;
     text-align: center;
+}
+
+.container {
+    max-width: 1080px;
+    vertical-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 body {
     font-family: 'Raleway', sans-serif;
-    text-align: center;
     padding-top: 5px;
-    max-width: 700px;
-}
-
-footer {
-    font-family: 'Raleway', sans-serif;
+    max-width: 1080px;
+    background-color: rgba(0, 0, 0, 0.3);
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: center;
+    color: #FEFEFE;
 }
 
 .myname {
     font-weight: 200;
     font-size: 60px;
-    vertical-align: center;
     max-width: 700px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 2px;
 }
-.education{
-	background-color: 
+
+.education {
+    font-color: white;
 }
-.education h1 h2 p {
+
+.video {
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: center;
+}
+
+.myname {
+    text-align: center;
+}
+
+p {
+    padding-left: 180px;
+    padding-right: 180px;
+    font-weight: 400;
+    font-size: 14px;
+    margin: 15px;
+}
+p:hover {
+	background-color: #FFAA5C;
+	margin: 0px;
+}
+
+h1 {
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+h2 {
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+h3 {
+    padding-left: 140px;
+    padding-right: 140px;
+}
+
+h4 {
+    padding-left: 160px;
+    padding-right: 160px;
+}
+
+h5 {
+    padding-left: 180px;
+    padding-right: 180px;
+}
+
+ol {
+    padding-left: 180px;
+    padding-right: 180px;
+    display: inline;
+    list-style-type: none;
+}
+
+ol.horizontal {
+    margin-top: 0px;
+    display: inline;
+    list-style-type: none;
+    padding-right: 20px;
+}
+a {
 	color: #FEFEFE;
+}
+a:visited {
+	color: #FFAA5C;
 }
