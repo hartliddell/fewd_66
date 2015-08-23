@@ -11,7 +11,6 @@ header {
     margin-left: auto;
     margin-right: auto;
     vertical-align: center;
-    width: 100%;
     text-align: center;
 }
 
@@ -36,12 +35,12 @@ body {
 .myname {
     font-weight: 200;
     font-size: 60px;
-    max-width: 700px;
     margin-top: 10px;
     margin-bottom: 10px;
     text-align: center;
     padding-top: 20px;
     padding-bottom: 2px;
+    letter-spacing: 3px;
 }
 
 .education {
@@ -59,58 +58,73 @@ body {
 }
 
 p {
+        font-family: 'Raleway', sans-serif;
     padding-left: 180px;
     padding-right: 180px;
     font-weight: 400;
     font-size: 14px;
     margin: 15px;
+    letter-spacing: 0.5px;
 }
+
 p:hover {
-	background-color: #FFAA5C;
-	margin: 0px;
+        font-family: 'Raleway', sans-serif;
+    background-color: #FFAA5C;
+    margin: 0px;
+    font-size: 16px;
 }
 
 h1 {
+        font-family: 'Raleway', sans-serif;
     padding-left: 120px;
     padding-right: 120px;
 }
 
 h2 {
+        font-family: 'Raleway', sans-serif;
     padding-left: 120px;
     padding-right: 120px;
 }
 
 h3 {
+        font-family: 'Raleway', sans-serif;
     padding-left: 140px;
     padding-right: 140px;
 }
 
 h4 {
+        font-family: 'Raleway', sans-serif;
     padding-left: 160px;
     padding-right: 160px;
 }
 
 h5 {
+        font-family: 'Raleway', sans-serif;
     padding-left: 180px;
     padding-right: 180px;
 }
 
 ol {
-    padding-left: 180px;
-    padding-right: 180px;
+        font-family: 'Raleway', sans-serif;
     display: inline;
     list-style-type: none;
+        padding-left: 180px;
+    padding-right: 180px;
 }
 
 ol.horizontal {
     margin-top: 0px;
     display: inline;
     list-style-type: none;
-    padding-right: 20px;
+        margin-left: 180px;
+    margin-right: 180px;
 }
+
 a {
-	color: #FEFEFE;
+        font-family: 'Raleway', sans-serif;
+    color: #FEFEFE;
 }
+
 a:visited {
-	color: #FFAA5C;
+    color: #FFAA5C;
 }
