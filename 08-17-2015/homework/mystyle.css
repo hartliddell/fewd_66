@@ -1,0 +1,15 @@
+body {
+    background-color: #C3EDAF;
+}
+
+h1 {
+    color: purple;
+    text-align: center;
+}
+
+p {
+    font-family: "Arial";
+    font-size: 20px;
+    color: purple;
+    text-decoration: sans-serif;
+}
