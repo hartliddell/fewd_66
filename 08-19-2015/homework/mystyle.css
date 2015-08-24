@@ -1,5 +1,5 @@
 body {
-    background-color: #C3EDAF;
+    background-color: #b2cecf;
 	font-family: "Arial";
 }
 
@@ -16,12 +16,13 @@ p {
 
 h3 {
 	font-family: "Garamond"
-	color: green;
+	color: #50d07d;
 	text-align: center;
 
 }
 
-ul {
+ul li {
 	font-style: italic;
-	color: red;
+	color: gray;
+	list-style-type: square;
 }
