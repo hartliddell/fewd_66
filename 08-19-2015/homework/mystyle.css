@@ -1,9 +1,27 @@
+body {
+    background-color: #C3EDAF;
+	font-family: "Arial";
+}
+
 h1 {
-    color: navy;
-    margin-left: 20px;
+    color: purple;
 }
 
 p {
-    text-align: center;
-    color: red;
+    font-family: "Arial";
+    font-size: 20px;
+    color: purple;
+    text-decoration: sans-serif;
+}
+
+h3 {
+	font-family: "Garamond"
+	color: green;
+	text-align: center;
+
+}
+
+ul {
+	font-style: italic;
+	color: red;
 }
