@@ -1,0 +1,139 @@
+    /*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+    /******************************************
+/* SETUP
+/*******************************************/
+    /******************************************
+/* BASE STYLES
+/*******************************************/
+    
+    body {
+        color: #fff;
+        font-size: 12px;
+        line-height: 1.4;
+        font-family: "Open Sans", sans-serif;
+        background-size: cover;
+    }
+    
+    a {
+        text-decoration: none;
+        color: #fff;
+    }
+    /******************************************
+/* LAYOUT
+/*******************************************/
+    /* Center the container */
+    
+    #container {
+        display: block;
+    }
+    
+    header {
+        background: url(../images/header_bg.jpg) no-repeat center top rgb(134, 141, 157);
+        background-size: cover;
+        width: 100%;
+        height: 700px;
+    }
+    
+    .Benefits {
+        color: #606161;
+        font-size: 13px;
+        font-weight: 300;
+        height: 615px;
+        background-color: #f0efef;
+    }
+    
+    .quote {
+        height: 400px;
+        background: url(../images/testimonial_bg.jpg) no-repeat center top rgb(134, 141, 157);
+        background-size: cover;
+    }
+    
+    .sign-up {
+        height: 120px;
+        background-color: #f9e42e;
+    }
+    
+    footer {
+        height: 350px;
+        background-color: #121212;
+    }
+    
+    button {
+        border-radius: 5px;
+        width: 265px;
+    }
+    /******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+    
+    .relaxr h1 {
+        font-weight: 800;
+        font-size: 24px;
+        margin-left: 10%;
+        padding-top: 40px;
+    }
+    
+    .relaxr h2 {
+        font-weight: 600;
+        font-size: 24px;
+        margin: auto;
+    }
+    
+    .relaxr button {
+        border: solid #f9e42e;
+        background-color: #f9e42e;
+    }
+    
+    .relaxr a {
+        font-weight: 800;
+        font-size: 14px;
+        color: #033048;
+    }
+    
+    .Benefits h1 {
+        color: #033048;
+        font-weight: 600;
+        font-size: 20px;
+    }
+    
+    ul {
+        list-style-type: circle;
+    }
+    
+    .quote p {
+        font-size: 18px;
+        font-weight: 300;
+        font-style: italic;
+    }
+    
+    .quote h1 {
+        font-weight: 600;
+        font-size: 18px;
+    }
+    
+    .sign-up a {
+        font-size: 12px;
+        font-weight: 800;
+    }
+    
+    .sign-up button {
+        border-color: #033048;
+        background-color: #033048;
+        border-radius: 5px;
+    }
+    
+    .bottom h1 {
+        font-weight: 800;
+        font-size: 24px;
+        color: #f9e42e;
+    }
+    
+    .bottom p {
+        font-size: 9px;
+        font-weight: 600;
+    }
