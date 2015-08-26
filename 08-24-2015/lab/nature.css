@@ -1,0 +1,30 @@
+header {
+	background-image: url("https://placeimg.com/1000/1000/nature");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
+	height: 700px;
+	width: 100%;
+}
+
+section img {
+	max-width: 100%
+}
+
+footer {
+	height: 150px;
+
+}
+
+footer li {
+	display: inline-block;
+	width: 100px;
+	background-color: yellow;
+	padding: 20px 10px;
+	text-align: center;
+	border: solid 10px red; 
+}
+
+footer li:nth-child(4) {
+	font-weight: bold;
+}

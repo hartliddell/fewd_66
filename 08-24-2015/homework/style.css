@@ -1,0 +1,20 @@
+header {
+	background-image: url('https://placeimg.com/600/400.pet');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
+	height: 400px;
+	width: 100%;
+}
+
+.forest img {
+	max-width: 100%;
+
+}
+
+.forest {
+	display: inline-block;
+	max-width: 48%;
+	border: solid 1px red;
+
+}
