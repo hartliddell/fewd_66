@@ -1,0 +1,34 @@
+    header {
+        height: 700px;
+        width: 100%;
+        background-image: url('https://scontent.xx.fbcdn.net/hphotos-frc3/t31.0-8/1077701_10151769964530921_1663385417_o.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: top;
+    }
+    
+    .forest {
+        max-width: 700px;
+        display: inline-block;
+        *display: inline;
+        *zoom: 1;
+    }
+    
+    img {
+        max-width: 100%;
+    }
+    
+    footer {
+        display: block;
+    }
+    
+    ol {
+        margin: auto;
+        display: inline-block;
+    }
+    
+    li {
+        display: inline-block;
+        list-style: none;
+        padding: 10px;
+    }

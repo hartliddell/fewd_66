@@ -13,15 +13,97 @@ Developer @GA in NYC
     
     body {
         color: #fff;
-        font-size: 12px;
-        line-height: 1.4;
+
         font-family: "Open Sans", sans-serif;
-        background-size: cover;
     }
     
     a {
         text-decoration: none;
         color: #fff;
+    }
+    
+    html,
+    body,
+    div,
+    span,
+    applet,
+    object,
+    iframe,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p,
+    blockquote,
+    pre,
+    a,
+    abbr,
+    acronym,
+    address,
+    big,
+    cite,
+    code,
+    del,
+    dfn,
+    em,
+    img,
+    ins,
+    kbd,
+    q,
+    s,
+    samp,
+    small,
+    strike,
+    strong,
+    sub,
+    sup,
+    tt,
+    var,
+    b,
+    u,
+    i,
+    center,
+    dl,
+    dt,
+    dd,
+    ol,
+    ul,
+    li,
+    fieldset,
+    form,
+    label,
+    legend,
+    table,
+    caption,
+    tbody,
+    tfoot,
+    thead,
+    tr,
+    th,
+    td,
+    article,
+    aside,
+    canvas,
+    details,
+    embed,
+    figure,
+    figcaption,
+    footer,
+    header,
+    hgroup,
+    menu,
+    nav,
+    output,
+    ruby,
+    section,
+    summary,
+    time,
+    mark,
+    audio,
+    video {
+        margin-top: 0px;
     }
     /******************************************
 /* LAYOUT
@@ -41,7 +123,7 @@ Developer @GA in NYC
     
     .Benefits {
         color: #606161;
-        font-size: 13px;
+        font-size: 26px;
         font-weight: 300;
         height: 615px;
         background-color: #f0efef;
@@ -51,11 +133,13 @@ Developer @GA in NYC
         height: 400px;
         background: url(../images/testimonial_bg.jpg) no-repeat center top rgb(134, 141, 157);
         background-size: cover;
+        text-align: center;
     }
     
     .sign-up {
         height: 120px;
         background-color: #f9e42e;
+        text-align: center;
     }
     
     footer {
@@ -66,6 +150,13 @@ Developer @GA in NYC
     button {
         border-radius: 5px;
         width: 265px;
+        height: 60px;
+        text-align: center;
+    }
+    footer{
+        margin-bottom: 0px;
+        height: 350px;
+        background-size: cover;
     }
     /******************************************
 /* ADDITIONAL STYLES
@@ -73,67 +164,102 @@ Developer @GA in NYC
     
     .relaxr h1 {
         font-weight: 800;
-        font-size: 24px;
+        font-size: 48px;
         margin-left: 10%;
         padding-top: 40px;
     }
     
     .relaxr h2 {
         font-weight: 600;
-        font-size: 24px;
-        margin: auto;
+        font-size: 48px;
+        text-align: center;
+        margin-top: 200px;
     }
     
     .relaxr button {
         border: solid #f9e42e;
         background-color: #f9e42e;
+        margin: auto;
+        display: block;
+        margin-top: 72px;
     }
     
     .relaxr a {
         font-weight: 800;
-        font-size: 14px;
+        font-size: 28px;
         color: #033048;
+    }
+    
+    .benefits-text {
+        margin-left: 10%;
     }
     
     .Benefits h1 {
         color: #033048;
         font-weight: 600;
-        font-size: 20px;
+        font-size: 40px;
+        padding-top: 100px;
     }
     
     ul {
-        list-style-type: circle;
+        list-style-type: circle solid;
+    }
+    
+    blockquote {
+        display: block;
+        margin: auto;
+        padding-top: 72px;
+    }
+    
+    .quote p h1 {
+        text-align: center;
     }
     
     .quote p {
-        font-size: 18px;
+        font-size: 36px;
         font-weight: 300;
         font-style: italic;
     }
     
     .quote h1 {
         font-weight: 600;
-        font-size: 18px;
+        font-size: 36px;
     }
     
     .sign-up a {
-        font-size: 12px;
+        font-size: 24px;
         font-weight: 800;
+        text-align: center;
     }
     
     .sign-up button {
         border-color: #033048;
         background-color: #033048;
         border-radius: 5px;
+        margin: auto;
+        margin-top: 35px;
+    }
+    
+    .bottom-content {
+        display: block;
+        width: auto;
+        text-align: center;
+        height: 100%;
     }
     
     .bottom h1 {
+        padding-top: 65px;
         font-weight: 800;
-        font-size: 24px;
+        font-size: 48px;
         color: #f9e42e;
+    }
+    .bottom img{
+        display: inline-block;
+        margin-top: 65px;
     }
     
     .bottom p {
-        font-size: 9px;
+        font-size: 18px;
         font-weight: 600;
+        margin-top: 65px;
     }
