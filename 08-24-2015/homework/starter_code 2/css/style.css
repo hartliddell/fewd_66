@@ -69,38 +69,38 @@ header {
 }
 
 .header-content {
-  max-width: 700px;
   margin: auto;
+  max-width: 700px;
 }
 
 
 .relaxr {
-color: white;
-font-size: 24px;
-font-weight: 800;
-text-align: left;
+  color: white;
+  font-size: 24px;
+  font-weight: 800;
+  text-align: left;
 }
 
 
 .mind {
   color: white;
   font-size: 24px;
-  text-align: center;
-  margin top: 80px;
-  margin-bottom: 100px;
   font-style: 600;
+  margin-bottom: 100px;
+  margin top: 80px;
+  text-align: center;
 }
 
 .headerbutton {
-  width: 300px;
-  padding: 15px;
-  text-decoration: none;
+  background-color: yellow;
+  border-radius: 5px;
   display: inline-block;
   text-align: center;
-  border-radius: 5px;
-  background-color: yellow;
-  font-weight: 800;
   font-size: 14px;
+  font-weight: 800;
+  padding: 15px;
+  text-decoration: none; 
+  width: 300px;
 }
 
 .benefits {
@@ -113,55 +113,52 @@ text-align: left;
 }
 
 .section2 {
-  background-image: url(../images/testimonial_bg.jpg);
-  height: 300px;
-  font-style: italic;
-  font-size: 18px;
-  font-weight: lighter;
-  text-align: center;
   background-color: #121212;
+  background-image: url(../images/testimonial_bg.jpg);
   color: #C8C8C8;
+  display: inline-block;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: lighter;
+  height: 300px;
   padding: 60px; 
   text-align: center;
   width: 100%;
-  display: inline-block;
-}
+  }
 
 .now {
-  width: 100%;
-  padding: 25px;
-  text-decoration: none;
-  display: inline-block;
-  text-align: center;
-  border-radius: 5px;
   background-color: yellow;
-  font-weight: 800;
-  font-size: 14px;
   border-radius: 5px;
-}
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 800;
+  padding: 25px;
+  text-align: center;
+  text-decoration: none;
+  width: 100%;
+  }
 
 .cta {
   background-color: #033048;
+  border-radius: 5px;
   color: white;
   display: inline-block;
+  font-weight: extra bold;
   margin: 25px 0;
   padding: 15px 30px;
   text-decoration: none;
-  font-weight: extra bold;
-  border-radius: 5px;
 }
 
 footer {
   background-color: #121212;
   color: yellow;
-  height: 300px;
+  display: inline-block;
   font-size: 24px;
   font-weight: lighter;
-  text-align: center;
+  height: 300px;
   padding: 60px; 
   text-align: center;
   width: 100%;
-  display: inline-block;
 }
 
 .copywrite {
