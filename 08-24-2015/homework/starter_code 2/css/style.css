@@ -112,6 +112,16 @@ header {
   width: 100%;
 }
 
+.perfect {
+  font-size: 13px;
+  font-weight: lighter;
+}
+
+.list {
+  font-size: 13px;
+  font-weight: lighter;
+}
+
 .section2 {
   background-color: #121212;
   background-image: url(../images/testimonial_bg.jpg);
