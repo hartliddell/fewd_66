@@ -58,29 +58,27 @@ body {
 /* LAYOUT
 /*******************************************/
 
-/* Center the container */
-#container {
-  width: 100%;
-  margin: auto;
-  height: 500px;
-
-}
-
 header {
-  background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-  height: 700px;
-  width: 100%;
+  background-image: url(../images/header_bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; 
+  height: 600px;
   padding: 60px; 
+  text-align: center;
+  width: 100%;
 }
 
-footer {
-
+.header-content {
+  max-width: 700px;
+  margin: auto;
 }
+
 
 .relaxr {
 color: white;
 font-size: 24px;
 font-weight: 800;
+text-align: left;
 }
 
 
@@ -103,30 +101,35 @@ font-weight: 800;
   background-color: yellow;
   font-weight: 800;
   font-size: 14px;
-  border-radius: 5px;
 }
 
-.section1 {
-  height: 200px;
+.benefits {
   font-weight: 600;
   font-size: 20px;
   background-color: #f0efef;
+  height: 600px;
+  padding: 60px; 
+  width: 100%;
 }
 
 .section2 {
-  height: 200px;
+  background-image: url(../images/testimonial_bg.jpg);
+  height: 300px;
   font-style: italic;
   font-size: 18px;
   font-weight: lighter;
   text-align: center;
   background-color: #121212;
   color: #C8C8C8;
-  padding: 15px;
+  padding: 60px; 
+  text-align: center;
+  width: 100%;
+  display: inline-block;
 }
 
 .now {
-  width: 300px;
-  padding: 15px;
+  width: 100%;
+  padding: 25px;
   text-decoration: none;
   display: inline-block;
   text-align: center;
@@ -137,8 +140,34 @@ font-weight: 800;
   border-radius: 5px;
 }
 
-.relaxr2 {
+.cta {
+  background-color: #033048;
+  color: white;
+  display: inline-block;
+  margin: 25px 0;
+  padding: 15px 30px;
+  text-decoration: none;
+  font-weight: extra bold;
+  border-radius: 5px;
+}
 
+footer {
+  background-color: #121212;
+  color: yellow;
+  height: 300px;
+  font-size: 24px;
+  font-weight: lighter;
+  text-align: center;
+  padding: 60px; 
+  text-align: center;
+  width: 100%;
+  display: inline-block;
+}
+
+.copywrite {
+ color: white;
+ font-size: 9px;
+ font-weight: semibold;
 }
 /******************************************
 /* ADDITIONAL STYLES
