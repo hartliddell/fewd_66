@@ -1,0 +1,157 @@
+            * {
+                box-sizing: content-box;
+            }
+            
+            body {
+                color: #fff;
+                font-family: "Open Sans", sans-serif;
+            }
+            
+            a {
+                text-decoration: none;
+                color: #fff;
+            }
+            
+            html,
+            body,
+            div,
+            span,
+            applet,
+            object,
+            iframe,
+            h1,
+            h2,
+            h3,
+            h4,
+            h5,
+            h6,
+            p,
+            blockquote,
+            pre,
+            a,
+            abbr,
+            acronym,
+            address,
+            big,
+            cite,
+            code,
+            del,
+            dfn,
+            em,
+            img,
+            ins,
+            kbd,
+            q,
+            s,
+            samp,
+            small,
+            strike,
+            strong,
+            sub,
+            sup,
+            tt,
+            var,
+            b,
+            u,
+            i,
+            center,
+            dl,
+            dt,
+            dd,
+            ol,
+            ul,
+            li,
+            fieldset,
+            form,
+            label,
+            legend,
+            table,
+            caption,
+            tbody,
+            tfoot,
+            thead,
+            tr,
+            th,
+            td,
+            article,
+            aside,
+            canvas,
+            details,
+            embed,
+            figure,
+            figcaption,
+            footer,
+            header,
+            hgroup,
+            menu,
+            nav,
+            output,
+            ruby,
+            section,
+            summary,
+            time,
+            mark,
+            audio,
+            video {
+                margin-top: 0px;
+            }
+            /******************************************
+/* LAYOUT
+/*******************************************/
+            
+            .flex {
+                display: flex;
+            }
+            /* Center the container */
+            header {
+                
+            }
+            body {
+                background-color: #efefef;
+            }
+            
+            #container {
+                display: block;
+                margin: auto;
+            }
+            
+            footer {
+                margin-bottom: 0px;
+                height: 350px;
+                background-size: cover;
+            }
+
+
+            /******************************************
+/* index.html
+/*******************************************/
+            
+            .relaxr a {
+                font-weight: 800;
+                font-size: 28px;
+                color: #033048;
+                .bottom-content display: block;
+                width: auto;
+                text-align: center;
+                height: 100%;
+            }
+            
+            .bottom h1 {
+                padding-top: 65px;
+                font-weight: 800;
+                font-size: 48px;
+                color: #f9e42e;
+            }
+            
+            .bottom img {
+                display: inline-block;
+                margin-top: 65px;
+            }
+            
+            .bottom p {
+                font-size: 18px;
+                font-weight: 600;
+                margin-top: 65px;
+                height: 350px;
+                background-color: #121212;
+            }
