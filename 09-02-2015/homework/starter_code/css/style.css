@@ -58,7 +58,7 @@ body {
 /*******************************************/
 
 /* Center the container */
-#container {
+.container {
   width: 960px;
   margin: auto;
 }
@@ -68,47 +68,112 @@ header {
 }
 
 footer {
+  background-color: black;
+  text-align: center;
+  color: white;
+  height: 300px;
+  padding-top: 50px;
+}
 
+.foot {
+  color: yellow;
+  font-size: 36px;
+}
+
+footer img {
+  margin: 10px;
 }
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
 
-#the-header-area {
+.the-header-area {
   background-color: #033048;
-  width: 920px;
+  width: 100%;
   height: 110px;
   font-size: 20px;
-  font-weight: Semibold;
+  font-weight: bold;
+  display: inline-block;
+  margin-bottom: 30px;
 }
 
-#the-header-area h1 {
+.logo {
   color: white;
+  float: left;
 }
 
-.box {
+.header {
+  width: 960px;
+  margin: auto;
+  /*display: inline;*/
+}
+/*.box {
     background-color: #033048;
     color: #f9e42e;
     overflow: hidden;
     padding: 15px;
     text-decoration: none;
-      }
+      }*/
 
+.nav a {
+  color: yellow;
+  float: right;
+  text-decoration: none;
+  display: inline-block;
+  margin: 35px 0 0 30px;
+
+}
+
+#subnav-to-other-section {
+  font-size: 18px;
+  color: navy;
+
+}
+
+#subnav-to-other-section li {
+  list-style: none;
+}
+
+
+#about-relaxr {
+  font-size: 18px;
+  color: navy;
+}
 
 #the-blog-posts {
     font-size: 20px;
     color: #606161;
+    width: 600px;
+    float: left;
+    /*border-bottom: 1px solid grey;*/
+}
+
+/*#blog-post {
+  border-bottom: 1px solid grey;
+}*/
+
+#right-column-stuff {
+  float: right;
+  width: 250px;
+  padding-left: 20px;
+}
+
+.readmore {
+  text-align: right;
+  border-bottom: 1px solid grey;
+  padding-bottom: 10px;
 }
 
 #the-blog-posts h2 {
   color: #033048;
   font-size: 30px;
+  float: left;
 }
 
 .now {
   background-color: yellow;
-  border-radius: 5px;
+  /*border-radius: 5px;*/
   display: inline-block;
   font-size: 14px;
   font-weight: 800;
@@ -116,6 +181,7 @@ footer {
   text-align: center;
   text-decoration: none;
   width: 100%;
+}
 
   .cta {
   background-color: #033048;
