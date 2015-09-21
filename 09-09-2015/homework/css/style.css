@@ -171,7 +171,7 @@ body {
 
 footer {
     margin-bottom: 0px;
-    height: 350px;
+    height: 250px;
     background-size: cover;
     background-color: #121212;
 }
@@ -333,9 +333,41 @@ a:-webkit-any-link {
     .sub {
         display: initial;
         width: calc(29% - 10px);
+        margin: 15px 0;
+        padding: 10px;
+        color: #033048;
+    }
+    
+    .story h1 {
+        font-size: 34px;
+        font-weight: 600;
     }
     
     .Stories {
         width: calc(69% - 10px);
+    }
+    
+    .categories {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .sign_up {
+        height: 100px;
+        background-color: #f9e42e;
+    }
+    
+    .button {
+        background-color: #033048;
+        height: 50%;
+        width: 30%;
+        color: #fff;
+        margin: auto;
+        border-radius: 5px;
+        text-align: center;
+    }
+    
+    .button a {
+        color: #fff;
     }
 }
