@@ -1,208 +1,196 @@
-/*
+    /*
 Project Name: Blank Template
 Client: Your Client
 Author: Your Name
 Developer @GA in NYC
 */
-
-
-/******************************************
+    /******************************************
 /* SETUP
 /*******************************************/
-
-
-/* Box Model Hack */
-
-* {
-    -moz-box-sizing: border-box;
-    /* Firexfox */
-    -webkit-box-sizing: border-box;
-    /* Safari/Chrome/iOS/Android */
-    box-sizing: border-box;
-    /* IE */
-    font-family: "Open Sans", sans-serif;
-}
-
-
-/* Clear fix hack */
-
-.clearfix:after {
-    content: ".";
-    display: block;
-    clear: both;
-    visibility: hidden;
-    line-height: 0;
-    height: 0;
-}
-
-.clear {
-    clear: both;
-}
-
-.alignright {
-    float: right;
-    padding: 0 0 10px 10px;
-    /* note the padding around a right floated image */
-}
-
-.alignleft {
-    float: left;
-    padding: 0 10px 10px 0;
-    box-sizing: content-box;
-}
-
-body {
-    color: #606161;
-    font-family: "Open Sans", sans-serif;
-}
-
-a {
-    text-decoration: none;
-}
-
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
-    margin: 0 0 0 0;
-}
-
-
-/******************************************
+    /* Box Model Hack */
+    
+    * {
+        -moz-box-sizing: border-box;
+        /* Firexfox */
+        -webkit-box-sizing: border-box;
+        /* Safari/Chrome/iOS/Android */
+        box-sizing: border-box;
+        /* IE */
+        font-family: "Open Sans", sans-serif;
+    }
+    /* Clear fix hack */
+    
+    .clearfix:after {
+        content: ".";
+        display: block;
+        clear: both;
+        visibility: hidden;
+        line-height: 0;
+        height: 0;
+    }
+    
+    .clear {
+        clear: both;
+    }
+    
+    .alignright {
+        float: right;
+        padding: 0 0 10px 10px;
+        /* note the padding around a right floated image */
+    }
+    
+    .alignleft {
+        float: left;
+        padding: 0 10px 10px 0;
+        box-sizing: content-box;
+    }
+    
+    body {
+        color: #606161;
+        font-family: "Open Sans", sans-serif;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    html,
+    body,
+    div,
+    span,
+    applet,
+    object,
+    iframe,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p,
+    blockquote,
+    pre,
+    a,
+    abbr,
+    acronym,
+    address,
+    big,
+    cite,
+    code,
+    del,
+    dfn,
+    em,
+    img,
+    ins,
+    kbd,
+    q,
+    s,
+    samp,
+    small,
+    strike,
+    strong,
+    sub,
+    sup,
+    tt,
+    var,
+    b,
+    u,
+    i,
+    center,
+    dl,
+    dt,
+    dd,
+    ol,
+    ul,
+    li,
+    fieldset,
+    form,
+    label,
+    legend,
+    table,
+    caption,
+    tbody,
+    tfoot,
+    thead,
+    tr,
+    th,
+    td,
+    article,
+    aside,
+    canvas,
+    details,
+    embed,
+    figure,
+    figcaption,
+    footer,
+    header,
+    hgroup,
+    menu,
+    nav,
+    output,
+    ruby,
+    section,
+    summary,
+    time,
+    mark,
+    audio,
+    video {
+        margin: 0 0 0 0;
+    }
+    /******************************************
 /* LAYOUT
 /*******************************************/
-
-.flex {
-    display: flex;
-}
-
-header {
-    position: relative;
-}
-
-
-/* Center the container */
-
-body {
-    background-color: #efefef;
-}
-
-#container {
-    display: block;
-    margin: auto;
-}
-
-footer {
-    margin-bottom: 0px;
-    height: 250px;
-    background-size: cover;
-    background-color: #121212;
-}
-
-
-/******************************************
+    
+    .flex {
+        display: flex;
+    }
+    
+    header {
+        position: relative;
+    }
+    /* Center the container */
+    
+    body {
+        background-color: #efefef;
+    }
+    
+    #container {
+        display: block;
+        margin: auto;
+    }
+    
+    footer {
+        margin-bottom: 0px;
+        background-size: cover;
+        background-color: #121212;
+        height: 400px;
+    }
+    /******************************************
 /* index.html
 /*******************************************/
-
-.relaxr a {
-    font-weight: 800;
-    font-size: 28px;
-    color: #033048;
-    .bottom-content display: block;
-    width: auto;
-    text-align: center;
-    height: 100%;
-}
-
-.bottom h1 {
-    font-weight: 800;
-    font-size: 48px;
-    color: #f9e42e;
-}
-
-.bottom p {
-    font-size: 18px;
-    font-weight: 600;
-}
-
-the padding around a left floated image */
+    
+    .relaxr a {
+        font-weight: 800;
+        font-size: 28px;
+        color: #033048;
+        .bottom-content display: block;
+        width: auto;
+        text-align: center;
+        height: 100%;
+    }
+    
+    .bottom h1 {
+        font-weight: 800;
+        font-size: 48px;
+        color: #f9e42e;
+    }
+    
+    .bottom p {
+        font-size: 18px;
+        font-weight: 600;
+    }
+    
+    the padding around a left floated image */
 }
 
 /******************************************
@@ -242,9 +230,6 @@ body {
     padding: 10px 0;
     margin-top: 35px;
 }
-aside {
-    display: none;
-}
 .story {
     border-bottom: 1px solid #033048;
     padding: 10px;
@@ -279,12 +264,44 @@ aside {
 a:-webkit-any-link {
     color: #033048;
 }
+.sub {
+    padding: 10px;
+    margin: 10px;
+}
+.ad_box {
+    background-color: #FFF;
+    height: 200px;
+    width: 100%;
+}
 .bottom-content {
     height: 100%;
     width: 100%;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    background-color:
+}
+.categories {
+    display: flex;
+    flex-direction: column;
+}
+.sign_up {
+    height: 100px;
+    background-color: #f9e42e;
+    display: flex;
+    align-items: center;
+}
+.button {
+    background-color: #033048;
+    width: 250px;
+    color: #fff;
+    margin: auto;
+    border-radius: 6px;
+    text-align: center;
+    padding: 15px;
+}
+.button a {
+    color: #fff;
 }
 
 /*  Media query */
@@ -346,28 +363,3 @@ a:-webkit-any-link {
     .Stories {
         width: calc(69% - 10px);
     }
-    
-    .categories {
-        display: flex;
-        flex-direction: column;
-    }
-    
-    .sign_up {
-        height: 100px;
-        background-color: #f9e42e;
-    }
-    
-    .button {
-        background-color: #033048;
-        height: 50%;
-        width: 30%;
-        color: #fff;
-        margin: auto;
-        border-radius: 6px;
-        text-align: center;
-    }
-    
-    .button a {
-        color: #fff;
-    }
-}
