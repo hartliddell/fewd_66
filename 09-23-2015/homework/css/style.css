@@ -53,7 +53,6 @@ Developer @GA in NYC
     a {
         text-decoration: none;
     }
-
     /******************************************
 /* LAYOUT
 /*******************************************/
@@ -120,6 +119,9 @@ body {
     font-family: Helvetica, Arial, sans-serif;
     background-color:
 }
+h1 {
+    margin: 0.5em;
+}
 
 /******************************************
 /* ADDITIONAL STYLES
@@ -133,8 +135,10 @@ body {
     top: 0;
 }
 .nav ul {
-    padding: 5px 20px;
+    padding: 0px;
     justify-content: space-between;
+    margin: 0.5em;
+    width: 90%;
 }
 .nav a {
     font-weight: 600;
@@ -150,7 +154,7 @@ body {
 .story {
     border-bottom: 1px solid #033048;
     padding: 10px;
-    margin: 10px;
+    margin: 30px;
 }
 .story h1 p a {
     padding: 20px 0 20px 0;
@@ -159,6 +163,7 @@ body {
     color: #033048;
     font-weight: 800;
     font-size: 22px;
+    margin-top: 0px;
 }
 .story a {
     font-weight: 800;
@@ -220,6 +225,12 @@ a:-webkit-any-link {
 .button a {
     color: #fff;
 }
+.more3 {
+    font-weight: 800;
+}
+.hide1, .hide2, .hide3 {
+    display: none;
+}
 
 /*  Media query */
 @media screen and (min-width: 480px) {
@@ -243,7 +254,7 @@ a:-webkit-any-link {
         float: right;
         background-color: #033048;
         position: relative;
-        width: 40%;
+        width: 50%;
     }
     
     .nav a {
@@ -280,3 +291,8 @@ a:-webkit-any-link {
     .Stories {
         width: calc(69% - 10px);
     }
+    
+    .nav ul {
+        padding: 5px 20px;
+    }
+
