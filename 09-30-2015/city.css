@@ -1,0 +1,22 @@
+
+
+.title {
+	height: 100px;
+	color: white;
+	background-color: #696969;
+	text-align: center;
+	margin: 0
+}
+
+.container {
+	width: 960px;
+	margin: auto;
+	padding-top: 5em
+	color: #696969;
+	text-align: left;
+	padding: 20px;
+}
+
+body {
+	background-size: cover;
+}
