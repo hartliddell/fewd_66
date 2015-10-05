@@ -1,0 +1,7 @@
+.body {
+    background-image: url ('images/wavesjpg');
+    background-size: cover;
+    float: left;
+                font-family: monospace;
+                font-size: 30px;
+}
