@@ -1,0 +1,61 @@
+* {
+    font-family: 'raleway', sans-serif;
+    overflow: auto;
+    box-sizing: content-box;
+}
+
+.container {
+    -webkit-display: flex;
+    -moz-display: flex;
+    -ms-display: flex;
+    -o-display: flex;
+    display: flex;
+    max-width: 1024px;
+    z-index: 100;
+}
+
+.hero {
+    color: white;
+    height: 35vh;
+    z-index: -100;
+    background-size: cover;
+    position: relative;
+}
+
+.main-hero {
+    background: linear-gradient(45deg, rgba(237, 20, 91, 1), rgba(244, 119, 34, 1));
+    color: white;
+    height: 50vh;
+    z-index: -100;
+    background-size: cover;
+    position: relative;
+}
+
+.live-hero {
+    background: linear-gradient(45deg, rgba(146, 39, 143, 1), rgba(0, 122, 194, 1));
+}
+
+.learn-hero {
+    background: linear-gradient(45deg, rgba(237, 20, 91, 1), rgba(244, 119, 34, 1));
+}
+
+.see-hero {
+    background: linear-gradient(45deg, rgba(186, 191, 16, 1), rgba(0, 174, 239, 1));
+}
+
+.nowgo{
+    background: #ffd100;
+    z-index: -100;
+}
+.texture {
+    background: url("../assets/texture-05.png");
+    background-position: center;
+    text-align: center;
+    background-size: cover;
+    position: relative;
+    height: 40vh;
+    width: 100%;
+    max-width: 1024px;
+    opacity: 0.5;
+
+}
