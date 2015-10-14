@@ -3,11 +3,11 @@
 }
 
 body {
-	background-color: red;
+	background-color: #cecece;
 }
 
 
-.nav {
+header .nav {
 	align-items: right;
 	display: flex;
 	justify-content: space-between;
@@ -16,29 +16,28 @@ body {
 	text-decoration: none;
 }
 
-.box-one {
+.bio {
 	height: 400px;
 	background-color: grey;
 	text-align: center;
 	padding-top: 200px;
 	border-radius: 10px;
 }
-.box-two {
+.portfolio {
 	height: 400px;
 	display: flex;
 	background-color: grey;
 	padding-top: 200px;
 	border-radius: 10px;
 }
-}
-.box-three {
+.contact {
 	height: 400px;
 	display: flex;
 	background-color: grey;
 	padding-top: 200px;
 	border-radius: 10px;
 }
-.box-four {
+.linkedin {
 	height: 400px;
 	display: flex;
 	background-color: grey;
