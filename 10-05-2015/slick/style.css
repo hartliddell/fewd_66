@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+}
+
+.hero-slider .slick-slide {
+    background-color: #cecece;
+    width: 100%;
+    height: calc(100vh - 80px);
+
+}
+
+.hero-slider .slick-slide:nth-child(odd) {
+    background-color: aquamarine;
+}
+
+.one {
+    background: url("images/fall.jpg");
+}
+
+.two {
+    background: url("images/grass.jpg");
+}
+
+.three {
+    background: url("images/desert.jpg");
+}
+
+.four {
+    background: url("images/winter.jpg");
+}
+
+.back {
+	
+	width: 100%;
+    background-size: cover;
+}

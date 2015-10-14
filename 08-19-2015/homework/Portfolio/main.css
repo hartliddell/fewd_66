@@ -1,0 +1,98 @@
+body {
+    font-family: 'Oswald', sans-serif;
+}
+
+.flex-container {
+    display: flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: stretch;
+    align-content: stretch;
+    min-height: 100vh;
+}
+
+.left {
+    background-color: #F2E169;
+    color: #524B3C;
+    flex-basis: 25%;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 25%;
+    max-width: 25%;
+    overflow: hidden;
+}
+
+.content {
+    flex-basis: %;
+    height: auto;
+    margin: auto;
+    overflow: scroll;
+    max-width: 100%;
+}
+
+.name {
+    margin: auto;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-weight: 100;
+    letter-spacing: .2em;
+    flex-basis: 20%;
+}
+
+.links {
+    text-align: center;
+    flex-basis: 80%;
+    font-weight: 100;
+}
+
+ol {
+    list-style-type: none;
+    padding: 0px;
+}
+
+a {
+    color: #524B3C;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+li {
+    padding-top: 10px;
+    min-height: 12px;
+}
+
+.photo {
+    margin-top: 100px;
+    margin: 10%;
+}
+
+.photo img {
+    height: auto;
+    width: auto;
+    max-width: 30%;
+}
+
+
+}
+.video {
+    margin-top: 100px;
+    margin: 10%;
+}
+.video iframe {
+    left: 0px;
+    top: 0px;
+    width: 60vw;
+    height: 40vw;
+    border: 1px solid;
+    font-size: 10vw;
+}
+.about img {
+    min-height: 100vh;
+}

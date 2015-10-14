@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+    list-style: none;
+    margin: 15px 0;
+}
+
+
+body {
+    width: 80%;
+    margin: auto;
+}
+
+header {
+    height: 150px;
+}
+
+.logo {
+    float: left;
+    background-color: gray;
+    height: 100px;
+    width: 100px; 
+}
+
+.navigation {
+    width: 50%;
+    float: right;
+}
+
+.primary {
+    clear: both;
+    height: 300px;
+    background-color: gray;
+
+}
+
+.secondary {
+    height: 200px;
+    justify-content: space-between;
+    display: flex;
+}
+
+article {
+    width: calc(33% - 15px);
+    background-color: red;
+}
+
+footer {
+    height: 100px;
+    background-color: gray;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+li {
+    height: 100px;
+    width: calc(25% - 15px);
+    background-color: gray;
+}

@@ -1,0 +1,130 @@
+html {
+    background: url("https://drscdn.500px.org/photo/33877631/m%3D2048/bcbc1cb8178aed33bc885308a6c34707") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+header {
+    font-family: 'Raleway', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: center;
+    text-align: center;
+}
+
+.container {
+    max-width: 1080px;
+    vertical-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    padding-top: 5px;
+    max-width: 1080px;
+    background-color: rgba(0, 0, 0, 0.3);
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: center;
+    color: #FEFEFE;
+}
+
+.myname {
+    font-weight: 200;
+    font-size: 60px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 2px;
+    letter-spacing: 3px;
+}
+
+.education {
+    font-color: white;
+}
+
+.video {
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: center;
+}
+
+.myname {
+    text-align: center;
+}
+
+p {
+        font-family: 'Raleway', sans-serif;
+    padding-left: 180px;
+    padding-right: 180px;
+    font-weight: 400;
+    font-size: 14px;
+    margin: 15px;
+    letter-spacing: 0.5px;
+}
+
+p:hover {
+        font-family: 'Raleway', sans-serif;
+    background-color: #FFAA5C;
+    margin: 0px;
+    font-size: 16px;
+}
+
+h1 {
+        font-family: 'Raleway', sans-serif;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+h2 {
+        font-family: 'Raleway', sans-serif;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+h3 {
+        font-family: 'Raleway', sans-serif;
+    padding-left: 140px;
+    padding-right: 140px;
+}
+
+h4 {
+        font-family: 'Raleway', sans-serif;
+    padding-left: 160px;
+    padding-right: 160px;
+}
+
+h5 {
+        font-family: 'Raleway', sans-serif;
+    padding-left: 180px;
+    padding-right: 180px;
+}
+
+ol {
+        font-family: 'Raleway', sans-serif;
+    display: inline;
+    list-style-type: none;
+        padding-left: 180px;
+    padding-right: 180px;
+}
+
+ol.horizontal {
+    margin-top: 0px;
+    display: inline;
+    list-style-type: none;
+        margin-left: 180px;
+    margin-right: 180px;
+}
+
+a {
+        font-family: 'Raleway', sans-serif;
+    color: #FEFEFE;
+}
+
+a:visited {
+    color: #FFAA5C;
+}

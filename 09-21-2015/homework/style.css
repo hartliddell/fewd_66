@@ -1,0 +1,12 @@
+body {
+	display: flex;
+}
+.right {
+	width: 50%;
+}
+.left {
+	width: 50%;
+	background: url("Malaysia.png") no-repeat;
+	background-size: cover;
+	height: 2231px;
+}
