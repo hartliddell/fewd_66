@@ -1,0 +1,74 @@
+<!--
+action url: https://docs.google.com/forms/d/1C185zfhO2pSLXkCur_b3TZStuiGYqHcDH4mlj1vgIFE/formResponse
+name: entry.1713976707
+name: entry.312683418
+name: entry.23147427
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form Submit Doc</title>
+</head>
+<body>
+
+    <h1>Google Doc Form</h1>
+
+    <form>
+        <input type="text" class="form-name" placeholder="Name" name="entry.1713976707">
+        <input type="email" class="form-email" placeholder="Email" name="entry.312683418">
+        <input type="text" class="form-place" placeholder="Where are you from?" name="entry.312683418">
+        <input type="submit">
+    </form>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script>
+        $('h1').css('color','red');
+        $('form').on('submit', function(event) {
+
+            // Prevent form submission
+            event.preventDefault();
+
+            // Get the form instance
+            var $form = $(event.currentTarget);
+
+            console.log($('.form-name').val());
+            console.log($('.form-place').val());
+            console.log($('.form-email').val());
+
+            //saving the value of this form field
+            var formName = $('.form-name').val();
+
+            function submitForm () {
+
+            }
+
+            //checking that the specific form is not empty
+            if(formName != '') {
+            	submitForm();
+            }
+            
+            // Use Ajax to submit form data
+            var url = 'https://docs.google.com/forms/d/1C185zfhO2pSLXkCur_b3TZStuiGYqHcDH4mlj1vgIFE/formResponse';
+            
+            var data = $form.serialize();
+            
+            $.post(url, $form.serialize(), function() {
+            
+            }).always(function() {
+                console.warn('Data sent to Google.');
+            });
+        } else {
+        	alert('please fill out the entire form!');
+        }
+        });
+    </script>
+<!-- or statement is double pipes || -->
+<!-- function sayMyName (name) {
+		console.log('hello' + name);
+		}
+		sayMyName('Hart');
+}-->
+</body>
+</html>
+

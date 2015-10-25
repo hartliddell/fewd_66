@@ -25,15 +25,21 @@ function convertTemp(num) {
 function updateHtmlTemp(num) {
     $('.tempFahrenheit').html(num);
     $('input').val('');
+
+    console.log(num);
+    if (num > 90) {
+        $('body').css('background-color','red');
+
+    } else {
+        $('body').css('background-color','yellow');
+    }
 }
 
-function updateColor(event) { 
 
-        if ("newTemp" > 75) {
-    	update.backgroundColor = 'red';
-}
-        else  
-        if ("newTemp" < 75)  
-        update.backgroundColor = 'green';
-        }
-     }
+// $(.body).css('background-iamge', 'url("../images/nyc.jpg")');
+// else if (num < 90 && num > 80) {   
+// }
+// background-size: cover;
+// background-repeat: no-repeat;
+
+// var $boday = $('body');
