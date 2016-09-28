@@ -1,0 +1,24 @@
+body {
+	background-color: #FFBBFF;
+	font-family: 'PT Sans Narrow', sans-serif;
+}
+h1 {
+	text-align: center;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+h2 {
+	color: grey;
+}
+img
+	{
+	float: right;
+	margin: 0 0 5 px 5 px;
+}
+a {
+	color: #e3129c;
+}

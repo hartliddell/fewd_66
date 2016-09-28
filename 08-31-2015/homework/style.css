@@ -1,0 +1,126 @@
+* {box-sizing: border-box;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	background-color: #d3d3d3;;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #000080;
+	height: 100px;
+	color: white;
+	}
+
+	a {
+	margin: 21px;
+	height: 60px;
+	padding: 30px;
+	color: yellow;
+	text-decoration: none;
+	}
+
+}
+.toptitle {
+	color: white;
+	font-weight: bold;
+	font-size: 24px;
+}
+
+.nav {
+	color: yellow;
+	display: inline;
+	float: right;
+	clear: right
+	height; 50px;
+	margin: 0;
+	padding: 0;
+}
+
+.flex-container {
+	display: flex;
+	justify-content: space-between;
+	max-width: 1200px; 
+	margin-left: auto; 
+	margin-right: auto;
+
+
+}
+.primary,
+.secondary {
+ 
+}
+
+.lorem-copy {
+	color: #2F4F4F;
+	font-size: 28px;
+	font-style: bold;
+	text-align: left;
+	padding: 0;
+	margin: 0;
+}
+.orem {
+	color: #2F4F4F;
+	font-size: 18px;
+	margin-left: 0;
+	padding: 0;
+	text-align: left;
+}
+.read-more,
+.learn-more-content {
+	color: #000080;
+	font-size: 18px;
+	text-align: right;
+}
+.primary {
+	width: calc(70% - 15px);
+}
+.secondary {
+	width: calc(30% - 15px);
+}
+
+.header .toptitle {
+	font-size: 40px;
+	margin: 0;
+	padding-top: 30px;
+	text-align: left;
+}
+.ad-unit {
+	background-color: white;
+	color: #000080;
+	max-width: 100%;
+	height: 500px;
+	font-size: 18px;
+	margin-top: 5px;
+	text-align: center;
+}
+.cta {
+	background-color:  #033048;
+	border-radius: 5px;
+	color: white;
+	display: inline-block;
+	font-size: 30px;
+	text-decoration: none;
+	padding: 15px 30px 15px 30px;
+}
+.endcta {
+	background-color: yellow;
+	padding: 30px 0px 30px 0px; 
+	text-align: center;	
+}
+
+.closing {
+	background-color: black;
+	color: yellow;
+	padding: 20px;
+	text-align: center;
+}
+.closing a {
+	padding: 10px;
+}
+.copyright {
+	color: white;
+}

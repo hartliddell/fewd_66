@@ -1,0 +1,22 @@
+header {
+	height: 400px;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url ('https://placeimg.com/1000/1000/nature');
+	background-position: center;
+}
+.forest img {
+	max-width: 100%;	
+	border: 1 px solid red;
+}
+
+.forest a{
+	color: green;
+}
+.forest a:hover {
+	color: red;
+}
+footer {
+	border: 5px dashed red;
+}
